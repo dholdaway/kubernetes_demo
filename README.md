@@ -1,3 +1,7 @@
+this read me is a work in progress..  
+
+
+
 ## install docker
 # sudo apt-get install docker.io
 
