@@ -57,17 +57,17 @@ export SERVICE_IP=$(kubectl get service helloworld-service -o=template '-t={{(in
 curl http://${SERVICE_IP}:${SERVICE_PORT}
 
 ## Sources and Further Readings
-Section 12, Lecture 74
-http://www.slideshare.net/realgenekim/2014-state-o...
-http://www.scriptrock.com/automation-enterprise-de...
-http://www.mobify.com/blog/devops-101-best-practic...
-http://www.slideshare.net/sanjeev-sharma/campdevop...
-http://www.slideshare.net/pritiman/intro-to-devops...
-http://www.slideshare.net/geekle/devops-5348895?ne...
-http://en.wikipedia.org/wiki/DevOps
-http://12factor.net
-CD: http://continuousdelivery.com/
-GIT: https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow (CC License)
-git flow: http://danielkummer.github.io/git-flow-cheatsheet/
-kubernetes setup: https://github.com/kubernetes/kubernetes/blob/release-1.1/docs/getting-started-guides/docker.md
-The Phoenix Project (recommended book): http://www.amazon.com/The-Phoenix-Project-Helping-Business/dp/0988262592
+
+http://www.slideshare.net/realgenekim/2014-state-of-devops-findings-velocity-conference  
+https://www.upguard.com/automation-enterprise-devops-doing-it-wrong  
+http://dev.mobify.com/blog/devops-101-best-practices/  
+http://www.slideshare.net/sanjeev-sharma/campdevops-keynote-devops-using-lean-to-eliminate-bottlenecks  
+http://www.slideshare.net/pritiman/intro-to-devops-14053761  
+http://www.slideshare.net/geekle/devops-5348895?next_slideshow=1  
+https://en.wikipedia.org/wiki/DevOps  
+http://12factor.net  
+CD: http://continuousdelivery.com/  
+GIT: https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow (CC License)  
+git flow: http://danielkummer.github.io/git-flow-cheatsheet/  
+kubernetes setup: https://github.com/kubernetes/kubernetes/blob/release-1.1/docs/getting-started-guides/docker.md  
+The Phoenix Project (recommended book): http://www.amazon.com/The-Phoenix-Project-Helping-Business/dp/0988262592  
